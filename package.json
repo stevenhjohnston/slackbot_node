@@ -1,0 +1,16 @@
+{
+  "name": "slacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "slack": "node index.js"
+  },
+  "author": "Rick Craig @ Receiptful <rick@receiptful.com> (https://receiptful.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "slack-client": "^1.4.1",
+    "twitter": "^1.2.5"
+  }
+}
