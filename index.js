@@ -22,7 +22,7 @@ slack.on('message', function(message) {
   var channel = slack.getChannelGroupOrDMByID(message.channel);
   var user = slack.getUserByID(message.user);
 
-  var regex = /fuck|shit|cunt/i;
+  var regex = /shazbot|frak|fiddlesticks/i;
 
   if (regex.test(message.text)) {
     channel.send('Now, now, ' + user.name + ' no need to be so uncivilised...');
